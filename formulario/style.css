@@ -1,0 +1,102 @@
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 40%;
+}
+
+/* Estilo do título do formulário */
+.form-title {
+    background-color: #1E90FF;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Container do formulário */
+.form-container {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #1E90FF;
+    margin-top: 20px;
+}
+
+/* Estilo das perguntas */
+label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    display: block;
+    font-family: 'Verdana', sans-serif; /* Fonte das perguntas */
+}
+
+/* Estilo das respostas */
+.resposta {
+    margin-bottom: 10px;
+}
+
+/* Estilo do input */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo das áreas de texto */
+textarea {
+    font-family: 'Arial', sans-serif;
+    resize: vertical;
+    width: 100%;
+}
+
+/* Estilo da mensagem de sucesso */
+.mensagem-sucesso {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-size: 1.1rem;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #1C75D6;
+}
